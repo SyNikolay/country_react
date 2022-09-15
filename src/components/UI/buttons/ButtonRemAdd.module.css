@@ -1,0 +1,32 @@
+.button_remove,
+.button_add {
+  display: block;
+  font-size: 12px;
+  min-width: 15px;
+  min-height: 15px;
+  padding: 1px 2px;
+  background-color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease .05s;
+}
+
+.button_remove {
+  color: rgb(218, 81, 81);
+  border: 1px solid rgb(218, 81, 81);
+}
+
+.button_add {
+  color: teal;
+  border: 1px solid teal;
+}
+
+.button_remove:hover,
+.button_add:hover {
+  transform: scale(1.05);
+}
+
+.button_remove:active,
+.button_add:active {
+  transform: scale(1.02);
+}
