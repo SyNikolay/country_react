@@ -1,0 +1,6 @@
+.my_page {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  column-gap: 20px;
+  padding: 10px 20px;
+}

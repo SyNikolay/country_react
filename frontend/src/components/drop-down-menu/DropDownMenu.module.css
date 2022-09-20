@@ -1,0 +1,47 @@
+.menu_container {
+  position: absolute;
+  background-color: #fff;
+  width: 140px;
+  padding: 5px 0;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0px 5px 7px 0px rgb(0 0 0 / 30%);
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.menu_button {
+  padding: 5px 15px;
+  text-align: start;
+  cursor: pointer;
+}
+
+.menu_button:hover {
+  background: linear-gradient(90deg, rgba(0, 213, 255, 0.15) 50%, #fff 100%);
+}
+
+.menu_button:first-child {
+  color: rgb(19, 146, 146);
+}
+
+.menu_button:nth-child(2) {
+  color: rgb(150, 150, 150);
+}
+
+.menu_button:last-child {
+  color: rgb(211, 32, 0);
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

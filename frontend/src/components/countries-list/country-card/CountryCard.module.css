@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  padding: 40px;
+}
+
+.flag {
+  width: 350px;
+  height: 180px;
+  display: block;
+  border: 2zpx solid #e5e5e5;
+  box-shadow: 0px 1px 8px 0px rgb(34 60 80 / 80%);
+  margin-right: 50px;
+}
+
+.description p {
+  text-align: left;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.menu_container {
+  display: flex;
+}
+
+.menu_button {
+  padding: 5px 15px;
+  text-align: start;
+  cursor: pointer;
+  transition: all ease .1s;
+  border-radius: 5px;
+}
+
+.menu_button:hover {
+  background: linear-gradient(90deg, rgba(0, 213, 255, 0.15) 0%, #fff 50%, rgba(0, 213, 255, 0.15) 100%);
+  box-shadow: 0px 0px 7px 0px rgb(34 60 80 / 30%);
+}
+
+.menu_button:active {
+  transform: scale(0.97);
+}
+
+.menu_button:first-child {
+  color: rgb(19, 146, 146);
+}
+
+.menu_button:nth-child(2) {
+  color: rgb(150, 150, 150);
+}
+
+.menu_button:last-child {
+  color: rgb(211, 32, 0);
+}

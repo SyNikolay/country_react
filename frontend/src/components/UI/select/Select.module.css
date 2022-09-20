@@ -1,0 +1,88 @@
+.select__input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #585757;
+  border: 1px solid #0085FF;
+  box-shadow: 0px 1px 1px 0px #0000000F;
+  border-radius: 4px;
+  text-align: start;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.select__dropdown {
+  display: none;
+  position: absolute;
+  text-align: start;
+  background-color: #fff;
+  margin-top: 5px;
+  padding: 8px 0;
+  border: 1px solid #E8E8E8;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1), 0px 1px 18px rgba(0, 0, 0, 0.06), 0px 6px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.select__option {
+  color: #585757;
+}
+
+.arrow {
+  width: 10px;
+  height: 6px;
+  transition: all ease .2s;
+}
+
+.sm .select__input,
+.sm .select__option {
+  width: 216px;
+  padding: 4px 8px;
+}
+
+.md .select__input,
+.md .select__option  {
+  width: 216px;
+  padding: 8px 12px;
+}
+
+.lg .select__input,
+.lg .select__option  {
+  width: 240px;
+  padding: 12px 16px;
+}
+
+.select__option:hover {
+  background: linear-gradient(0deg, rgba(0, 133, 255, 0.1), rgba(0, 133, 255, 0.1));
+}
+
+.sm .select__input,
+.sm .select__dropdown {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.md .select__input,
+.md .select__dropdown {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.lg .select__input,
+.lg .select__dropdown {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.open {
+  display: block;
+}
+
+.arrow_open {
+  transform: rotate(180deg);
+}

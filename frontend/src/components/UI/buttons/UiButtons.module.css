@@ -1,0 +1,83 @@
+.button_primary_lg {
+  color: #fff;
+  background: #0085FF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 14px 24px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  border: 1px solid #168FFF;
+  cursor: pointer;
+  transition: all ease .2s;
+}
+
+.button_primary_lg:hover {
+  background-color: rgb(0, 105, 217);
+}
+.button_primary_lg:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #168FFF;
+}
+.button_primary_lg:disabled {
+  /* opacity: .5; */
+  background: linear-gradient(0deg, rgba(0, 133, 255, 0.1), rgba(0, 133, 255, 0.1)),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+.button_primary_md {
+  color: #fff;
+  background: #0085FF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  border: 1px solid #168FFF;
+  cursor: pointer;
+  transition: all ease .2s;
+}
+
+.button_primary_md:hover {
+  background-color: rgb(0, 105, 217);
+}
+.button_primary_md:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #168FFF;
+}
+.button_primary_md:disabled {
+  background: linear-gradient(0deg, rgba(0, 133, 255, 0.1), rgba(0, 133, 255, 0.1)),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.button_primary_sm {
+  color: #fff;
+  background: #0085FF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  border: 1px solid #168FFF;
+  cursor: pointer;
+  transition: all ease .2s;
+}
+
+.button_primary_sm:hover {
+  background-color: rgb(0, 105, 217);
+}
+.button_primary_sm:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #168FFF;
+}
+.button_primary_sm:disabled {
+  background: linear-gradient(0deg, rgba(0, 133, 255, 0.1), rgba(0, 133, 255, 0.1)),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.activ {
+  color:rgb(0, 105, 217);
+  border-color: #168FFF;
+  background-color: #fff;
+}
+
+.activ:hover {
+  color: #168FFF;
+}
